@@ -14,7 +14,7 @@ app.use(express.json());
 
 app.use(
   cors({
-    origin: "https://glowing-queijadas-f60c6f.netlify.app",
+    origin: "https://blog-api-vurmaz.netlify.app",
     credentials: true,
   })
 );
