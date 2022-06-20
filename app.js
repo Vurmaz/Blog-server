@@ -14,7 +14,7 @@ app.use(express.json());
 
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: "https://glowing-queijadas-f60c6f.netlify.app",
     credentials: true,
   })
 );
